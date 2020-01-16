@@ -3,18 +3,18 @@
 
 int main()
 {
-    int a;
-    int b;
-    int c;
-    int biggest;
+    unsigned int a;
+    unsigned int b;
+    unsigned int c;
+    unsigned int biggest;
 
-    printf("Enter the three numbers\n");
+    printf("Enter the three unsigned numbers\n");
 
-    scanf("%d %d %d", &a, &b, &c);
+    scanf("%u %u %u", &a, &b, &c);
 
     biggest =  ((b > c) ? ((a > b) ? a : b) : c) ;
 
-    printf("Biggest of the three numbers is : %d\n", biggest);
+    printf("Biggest of the three numbers is : %u\n", biggest);
 
     return 0;
 }
